@@ -1,0 +1,9 @@
+{
+  "INVALID_TYPE": "Invalid volatility confidence type",
+  "INVALID_TIME_TYPE": "Invalid volatility confidence time type",
+  "INVALID_TIME": "Invalid volatility confidence time",
+  "INVALID_CONFIG_VOLATILITY": "Invalid config volatility",
+  "INVALID_CONFIG_VOLATILITY_ADMIN": "Invalid config admin volatility",
+  "INVALID_CONFIG_VOLATILITY_USER": "Invalid config user volatility",
+  "INVALID_CONFIG_CONFIDENCE": "Invalid config confidence"
+}

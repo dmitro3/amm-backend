@@ -1,0 +1,107 @@
+app:
+  name: APP_NAME
+  port: APP_PORT
+  env: NODE_ENV
+  password_secret: PASSWORD_SECRET
+  salt_round: SALT_ROUND
+  token_expire: TOKEN_EXPIRE
+  jwt_access_token_secret: JWT_ACCESS_TOKEN_SECRET
+  jwt_access_token_expiration_time: JWT_ACCESS_TOKEN_EXPIRATION_TIME
+  jwt_refresh_token_secret: JWT_REFRESH_TOKEN_SECRET
+  jwt_refresh_token_expiration_time: JWT_REFRESH_TOKEN_EXPIRATION_TIME
+  jwt_verify_email_token_secret: JWT_VERIFY_EMAIL_TOKEN_SECRET
+  jwt_verify_email_token_expiration_time: JWT_VERIFY_EMAIL_TOKEN_EXPIRATION_TIME
+
+master:
+  host: MYSQL_HOST
+  port: MYSQL_PORT
+  username: MYSQL_USERNAME
+  password: MYSQL_PASSWORD
+  database: MYSQL_DATABASE
+  # entities: "[dist/**/*.entity{.ts,.js}]"
+
+report:
+  host: REPORT_MYSQL_HOST
+  port: REPORT_MYSQL_PORT
+  username: REPORT_MYSQL_USERNAME
+  password: REPORT_MYSQL_PASSWORD
+  database: REPORT_MYSQL_DATABASE
+  entities: '[dist/**/*.entity{.ts,.js}]'
+
+redis:
+  host: REDIS_HOST
+  port: REDIS_PORT
+
+google_verify_captcha_url: GOOGLE_VERIFY_CAPTCHA_URL
+google_recaptcha_secret: GOOGLE_RECAPTCHA_SECRET
+stellar_exchange_account: STELLAR_EXCHANGE_ACCOUNT
+stellar_network_passphrase: STELLAR_NETWORK_PASSPHRASE
+stellar_exchange_secret: STELLAR_EXCHANGE_SECRET
+rpc_url: RPC_URL
+matcher_private_key: MATCHER_PRIVATE_KEY
+matcher_address: MATCHER_ADDRESS
+base_derivation_path: BASE_DERIVATION_PATH
+network_id: NETWORK_ID
+chain_id: CHAIN_ID
+sentry_dns: SENTRY_DNS
+address_exchange: ADDRESS_EXCHANGE
+white_list_address: WHITE_LIST_ADDRESS
+erc20_proxy: ERC20_PROXY
+zrx_token: ZRX_TOKEN
+static_call_proxy: STATIC_CALL_PROXY
+zrx_vault: ZRX_VAULT
+exchange_proxy: EXCHANGE_PROXY
+exchange_proxy_transformer_deployer: EXCHANGE_PROXY_TRANSFORMER_DEPLOYER
+exchange_proxy_flash_wallet: EXCHANGE_PROXY_FLASH_WALLET
+pay_taker_transformer: PAY_TAKER_TRANSFORMER
+affiliate_fee_transformer: AFFILIATE_FEE_TRANSFORMER
+positive_slippage_fee_transformer: POSITIVE_SLIPPAGE_FEE_TRANSFORMER
+abc_token: ABC_TOKEN
+registry: REGISTRY
+ownable: OWNABLE
+transform_erc20: TRANSFORM_ERC20
+meta_transactions: META_TRANSACTIONS
+native_orders: NATIVE_ORDERS
+match_orders: MATCH_ORDERS
+limit_order: LIMIT_ORDER
+default_property_contract_value: DEFAULT_PROPERTY_CONTRACT_VALUE
+
+kafka_host: KAFKA_HOST
+kafka_port: KAFKA_PORT
+kafka_host2: KAFKA_HOST
+kafka_port2: KAFKA_PORT
+
+cron:
+  enable:
+    __name: CRON_ENABLE
+    __format: json
+
+mail:
+  from: MAIL_FROM
+  host: MAIL_HOST
+  port: MAIL_PORT
+  account: MAIL_ACCOUNT
+  password: MAIL_PASSWORD
+
+stellar_url: STELLAR_HORIZON_URL
+subgraph_url: SUBGRAPH_URL
+sor_url: SOR_URL
+
+coinmarketcap:
+  base_url: COINMARKETCAP_BASE_URL
+  prefix_get_price: COINMARKETCAP_GETPRICE
+  api_key: COINMARKETCAP_APIKEY
+
+xe_currencies:
+  fixer_access_key: FIXER_ACCESS_KEY
+  fixer_api_currencies: FIXER_API_CURRENCIES
+  fixer_base_currency: FIXER_BASE_CURRENCY
+
+base_pnl: BASE_PNL
+
+ticker:
+  interval: TICKER_INTERVAL
+
+fcx:
+  page: FCX_PAGE
+  admin: FCX_ADMIN

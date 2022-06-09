@@ -1,0 +1,58 @@
+app:
+  name: fcxv2-backend
+  port: 3000
+  env: development
+  url: 127.0.0.1
+  prefix: api/v1
+  password_secret: 0470a528a1d1687c9ab7b2857ac3d3394a5fc37e1eec91652ca934722ac2bbfe
+  salt_round: 10
+  token_expire: 60000s
+  jwt_access_token_secret: 0470a528a1d1687c9ab7b2857ac3d3394a5fc37e1eec91652ca934722ac2bbfe
+  jwt_access_token_expiration_time: 86400s
+  jwt_refresh_token_secret: 0470a528a1d1687c9ab7b2857ac3d3394a5fc37e1eec91652ca934722ac2bbfe
+  jwt_refresh_token_expiration_time: 604800s
+  jwt_verify_email_token_secret: 0470a528a1d1687c9ab7b2857ac3d3394a5fc37e1eec91652ca934722ac2bbfe
+  jwt_verify_email_token_expiration_time: 86400s
+
+master:
+  type: mysql
+  host: 'http://127.0.0.1'
+  port: 3307
+  username: admin
+  password: 1
+  database: test
+  logging: true
+  entities:
+    - 'dist/**/*.entity{.ts,.js}'
+
+report:
+  type: mysql
+  host: 'http://127.0.0.1'
+  port: 3307
+  username: admin
+  password: 1
+  database: test
+  logging: true
+  entities:
+    - 'dist/**/*.entity{.ts,.js}'
+
+redis:
+  host: 'http://127.0.0.1'
+  port: 3308
+
+mnemonic: 'december carpet ranch page like milk monster correct source ten human indicate'
+base_derivation_path: "44'/60'/0'/0"
+network_id: 15
+chain_id: 15
+address_exchange: '0xF54b3294616d39749732Ac74F234F46C9ABf29C4'
+
+sentry_dns: 'https://db92c0c8674b4f3480908dfef1fde708@o736520.ingest.sentry.io/5785081'
+
+cron:
+  enable: false
+
+mail:
+  host: 'smtp.mailtrap.io'
+  port: 2525
+  account: 'c2a066cdf3d560'
+  password: '399dc51ba1eb5e'

@@ -1,0 +1,18 @@
+{
+    "NOT_EXIST": "Order does not exist",
+    "UNAUTHORIZED": "No permission to change order",
+    "ALREADY_CANCEL": "Order has already been canceled",
+    "ALREADY_FULFILL": "Order has already been fulfilled",
+    "INVALID_HASH": "Order hash does not match on smart contract",
+    "FAILED_CREATED": "Server unable to create order",
+    "INVALID_SIDE": "Invalid side of order",
+    "INVALID_TAKER_AMOUNT": "Invalid taker amount",
+    "INVALID_VALUE": "Invalid order value",
+    "INVALID_MAKER_AMOUNT": "Invalid maker amount",
+    "INVALID_TAKER_TOKEN_FEE": "Invalid taker token fee amounts",
+    "INVALID_SENDER": "Invalid sender",
+    "INVALID_MAKER": "Invalid maker",
+    "INVALID_PAIR_ID": "Invalid pair id",
+    "INVALID_STELLAR_ORDER": "Invalid stellar order",
+    "ONLY_CANCEL_BSC": "Can only cancel BSC order"
+}

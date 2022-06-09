@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+
+  <style>
+    html {}
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      line-height: 28px;
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 27px;
+      color: #4f4f4f;
+    }
+
+    .email-content {
+      padding: 30px;
+    }
+
+    .title {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 45px;
+      color: #1a88c9;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+
+    .fcx-img {
+      width: 100%;
+    }
+
+    .verify-button {
+      width: 180px;
+      height: 44px;
+      background-color: #1a88c9;
+      border: none;
+      border-radius: 5px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .link {
+      text-decoration: none;
+    }
+
+    .btn-text {
+      color: #ffff;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    hr {
+      border: 1px solid #e2e2e2;
+      margin: 0px;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-weight: 400;
+      color: #828282;
+    }
+  </style>
+</head>
+
+<body>
+  <header><img class="fcx-img" src="{{publicLink}}/banner_email.png" /></header>
+
+  <div class="email-content">
+    <h1 class="title">Register account</h1>
+
+    <p>Email confirmation</p>
+    <p>Welcome to FCX!</p>
+    <p>Thank you for signing up for FCX. To complete your registration form, please confirm your email address.</p>
+    <button class="verify-button">
+      <a class="link btn-text" href="{{verifyEmailUrl}}">Verify</a>
+    </button>
+
+    <hr />
+
+    <footer>
+      <p>Velo team.</p>
+      <p>This confirmation link will expire in 24 hours.</p>
+    </footer>
+  </div>
+</body>
+
+</html>

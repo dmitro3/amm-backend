@@ -1,0 +1,5 @@
+{
+  "NOT_EXISTS": "Pool request not found",
+  "INVALID_STATUS": "Invalid pool status",
+  "CANNOT_UPDATE_STATUS": "Cannot update pool status"
+}

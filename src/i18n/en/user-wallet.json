@@ -1,0 +1,12 @@
+{
+  "WALLET_NOT_EXISTS": "Wallet not found",
+  "INCORRECT_STATUS": "Incorrect wallet status",
+  "WHITE_LIST_FAILED": "Contract unable to white list address",
+  "WALLET_EXISTS_BY_SELF": "UW00001",
+  "WALLET_EXISTS_BY_ANOTHER": "UW00002",
+  "INVALID_STATUS": "Invalid status.",
+  "INVALID_ADDRESS": "Invalid address.",
+  "ADDRESS_EXISTS": "Address already exists.",
+  "ADDRESS_NOT_ACTIVE": "Address hasn’t been activated.",
+  "ADDRESS_NOT_TRUSTLINE": "Sorry, you have to trustline all FCX digital credits to submit address for whitelisting."
+}

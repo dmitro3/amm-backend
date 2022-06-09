@@ -1,0 +1,5 @@
+{
+  "ADMIN_NOT_CHANGED_DEFAULT_PASSWORD": "Please change provided default password",
+  "REQUIRE_NEW_PASSWORD": "You are trying to use default password as new password. Please set a different password",
+  "CHANGED_DEFAULT_PASSWORD_SUCCESSFULLY": "Changed default password successfully"
+}
